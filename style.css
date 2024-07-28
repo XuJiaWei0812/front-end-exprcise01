@@ -148,7 +148,6 @@ div.japan .info {
 
 div.competition {
   display: flex;
-  padding: 1rem;
   flex-wrap: wrap;
 }
 
@@ -162,6 +161,10 @@ div.competition div.text h3 {
   color: rgb(12, 122, 92);
 }
 
+div.competition div.text ul {
+  margin-left: 2rem;
+}
+
 #piechart {
   flex: 1 1 300px;
 }
@@ -170,6 +173,7 @@ div.competition div.text h3 {
 .china h3 {
   color: rgb(12, 122, 92);
   font-size: 2rem;
+  padding-top: 0.8rem;
 }
 
 .china table,
@@ -187,4 +191,15 @@ div.competition div.text h3 {
 .china th {
   background-color: rgb(86, 224, 192);
   color: white;
+}
+
+/* 海峰棋院 */
+section.taiwan h3 {
+  font-size: 2rem;
+  color: rgb(12, 122, 92);
+  padding-top: 0.8rem;
+}
+
+.taiwan ul {
+  margin-left: 2rem;
 }
