@@ -55,6 +55,12 @@ nav ul li a:hover {
   color: yellow;
 }
 
+@media screen and (max-width: 600px) {
+  header nav ul {
+    flex-direction: column;
+  }
+}
+
 /* 網站首頁 */
 main {
   display: flex;
